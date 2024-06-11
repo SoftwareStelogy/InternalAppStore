@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="@+id/header_icon"
         app:layout_constraintTop_toTopOf="@+id/header_icon" />
 
-    <fr.smarquis.appstore.EmojiTextView
+    <stelogy.android.store.EmojiTextView
         android:id="@+id/header_installedInfo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
         tools:text="Installed\n1.2.3 (10203000) • 2 min. ago"
         tools:visibility="visible" />
 
-    <fr.smarquis.appstore.EmojiTextView
+    <stelogy.android.store.EmojiTextView
         android:id="@+id/header_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

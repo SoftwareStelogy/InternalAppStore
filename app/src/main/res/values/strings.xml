@@ -67,4 +67,6 @@
     <string name="shortcut_application_removed">This application has been removed.</string>
     <!--endregion-->
 
+    <string name="default_web_client_id" translatable="false">679578344286-gmeq30vk1c2ipsvkboomcguv65trttap.apps.googleusercontent.com</string>
+
 </resources>

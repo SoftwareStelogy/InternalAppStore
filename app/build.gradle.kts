@@ -11,11 +11,11 @@ val versionPatch = 0
 val versionBuild = 0
 
 android {
-    namespace = "fr.smarquis.appstore"
+    namespace = "stelogy.android.store"
     compileSdk = 34
     defaultConfig {
-        applicationId = "fr.smarquis.appstore"
-        minSdk = 19
+        applicationId = "com.stelogy.android.store"
+        minSdk = 23
         targetSdk = 34
         versionCode = versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
         versionName = "$versionMajor.$versionMinor.$versionPatch"
@@ -62,4 +62,6 @@ dependencies {
     implementation(libs.google.android.material)
     implementation(libs.byteunits)
     implementation(libs.glide)
+    implementation(platform("com.google.firebase:firebase-bom:33.1.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
